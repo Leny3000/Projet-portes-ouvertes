@@ -1,0 +1,59 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        main {
+            margin-top: 50px;
+        }
+
+        .btn {
+            padding: 15px 25px;
+            font-size: 1.2em;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-slam {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .btn-slam:hover {
+            background-color: #0b7dda;
+        }
+
+        .btn-sisr {
+            background-color: #FF5722;
+            color: white;
+        }
+
+        .btn-sisr:hover {
+            background-color: #e64a19;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
