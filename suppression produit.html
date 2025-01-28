@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <script src="suppression produit.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="suppression produit.css">
+    <title>Supprimer un produit - Mission SLAM</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mission : Supprimer un produit de l'inventaire</h1>
+        <p>Sélectionnez un produit à supprimer de l'inventaire.</p>
+    </header>
+
+    <main>
+        <form id="deleteForm">
+            <label for="productDeleteName">Nom du produit à supprimer :</label>
+            <input type="text" id="productDeleteName" placeholder="Nom du produit" required>
+            <button type="submit">Supprimer le produit</button>
+        </form>
+
+        <p id="confirmation"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jeu de Rôle BTS SIO - Option SLAM</p>
+    </footer>
+
+</body>
+
+</html>

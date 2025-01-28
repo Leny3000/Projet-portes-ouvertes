@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <script src="utilisateurs.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utilisateurs.css">
+    <title>Ajouter un utilisateur - Mission SISR</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mission : Ajouter un utilisateur</h1>
+        <p>Ajoutez un nouvel utilisateur avec un rôle spécifique.</p>
+    </header>
+
+    <main>
+        <form id="userForm">
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" placeholder="Nom d'utilisateur" required>
+
+            <label for="role">Rôle :</label>
+            <select id="role" required>
+                <option value="admin">Administrateur</option>
+                <option value="standard">Utilisateur standard</option>
+            </select>
+
+            <button type="submit">Ajouter l'utilisateur</button>
+        </form>
+
+        <p id="confirmation"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jeu de Rôle BTS SIO - Option SISR</p>
+    </footer>
+
+</body>
+
+</html>

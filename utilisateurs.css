@@ -1,0 +1,130 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* En-tête de la page */
+header {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titre principal */
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Description sous le titre */
+p {
+    font-size: 1.2em;
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.1em;
+}
+
+/* Champs de texte */
+input, select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #2980b9; /* Bleu clair pour les champs */
+    outline: none;
+}
+
+/* Bouton de soumission */
+button {
+    font-size: 1.1em;
+    padding: 12px 24px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a01616;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #bc2d1a;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Message de confirmation */
+#confirmation {
+    font-size: 1.1em;
+    color: #a01f16;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style du footer */
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Marges et espacements */
+p, form {
+    margin-bottom: 20px;
+}
+
+/* Pour le responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    input, select {
+        padding: 8px;
+    }
+}

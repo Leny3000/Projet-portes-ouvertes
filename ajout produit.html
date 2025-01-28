@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <script src="ajout produit.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ajout produit.css">
+    <title>Ajouter un produit - Mission SLAM</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mission : Ajouter un produit à l'inventaire</h1>
+        <p>Ajoutez un nouveau produit à l'inventaire avec ses informations.</p>
+    </header>
+
+    <main>
+        <form id="productForm">
+            <label for="productName">Nom du produit :</label>
+            <input type="text" id="productName" placeholder="Nom du produit" required>
+
+            <label for="productQuantity">Quantité :</label>
+            <input type="number" id="productQuantity" placeholder="Quantité" required>
+
+            <label for="productPrice">Prix :</label>
+            <input type="number" id="productPrice" placeholder="Prix" required>
+
+            <button type="submit">Ajouter le produit</button>
+        </form>
+
+        <p id="confirmation"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jeu de Rôle BTS SIO - Option SLAM</p>
+    </footer>
+
+</body>
+
+</html>

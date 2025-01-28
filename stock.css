@@ -1,0 +1,114 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* En-tête de la page */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titre principal */
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Description sous le titre */
+p {
+    font-size: 1.2em;
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Bouton pour afficher le stock */
+#showStockButton {
+    font-size: 1.2em;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2980b9; /* Bleu */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#showStockButton:hover {
+    background-color: #3498db; /* Bleu clair */
+    transform: translateY(-3px);
+}
+
+#showStockButton:active {
+    transform: translateY(0);
+}
+
+/* Liste des produits */
+#stockList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#stockList li {
+    padding: 10px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #34495e;
+}
+
+#stockList li:nth-child(odd) {
+    background-color: #f9fafb;
+}
+
+/* Style du footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Pour le responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    #showStockButton {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    #stockList li {
+        font-size: 1em;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
